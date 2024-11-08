@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['lodash'],  // Optional: try adding lodash as external if you want to exclude it from the build
+      external: ['lodash-es'],
     },
-  },
+  }, 
 });
